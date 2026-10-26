@@ -1,0 +1,11 @@
+[Unit]
+Description=Cyber Monitor Daemon
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/cyber_daemon
+Restart=always
+StandardOutput=journal
+
+[Install]
+WantedBy=multi-user.target

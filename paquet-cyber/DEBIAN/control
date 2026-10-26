@@ -1,0 +1,7 @@
+Package: cyber-monitor-daemon
+Version: 1.0
+Architecture: amd64
+Maintainer: Anna Mamelli <anna.mamelli@gmail.com>
+Description: Daemon de supervision cyber avec persistance systemd
+ Ce paquet installe un démon de test illustrant un vecteur de
+ supply chain via un service systemd (MITRE ATT&CK T1543.002).
